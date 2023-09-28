@@ -11,6 +11,8 @@
 		728119552AC3F182005D0D72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728119542AC3F182005D0D72 /* ContentView.swift */; };
 		728119572AC3F183005D0D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728119562AC3F183005D0D72 /* Assets.xcassets */; };
 		7281195A2AC3F183005D0D72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728119592AC3F183005D0D72 /* Preview Assets.xcassets */; };
+		728119642AC3F4EB005D0D72 /* CroissantOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 728119632AC3F4EB005D0D72 /* CroissantOne-Regular.ttf */; };
+		7281196B2AC40043005D0D72 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7281196A2AC40043005D0D72 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		728119542AC3F182005D0D72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		728119562AC3F183005D0D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		728119592AC3F183005D0D72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		728119632AC3F4EB005D0D72 /* CroissantOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CroissantOne-Regular.ttf"; sourceTree = "<group>"; };
+		728119652AC3F667005D0D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7281196A2AC40043005D0D72 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +56,11 @@
 		728119512AC3F182005D0D72 /* DanfelogarCard */ = {
 			isa = PBXGroup;
 			children = (
+				728119652AC3F667005D0D72 /* Info.plist */,
+				728119602AC3F46C005D0D72 /* Fonts */,
 				728119522AC3F182005D0D72 /* DanfelogarCardApp.swift */,
 				728119542AC3F182005D0D72 /* ContentView.swift */,
+				7281196A2AC40043005D0D72 /* InfoView.swift */,
 				728119562AC3F183005D0D72 /* Assets.xcassets */,
 				728119582AC3F183005D0D72 /* Preview Content */,
 			);
@@ -65,6 +73,14 @@
 				728119592AC3F183005D0D72 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		728119602AC3F46C005D0D72 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				728119632AC3F4EB005D0D72 /* CroissantOne-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +143,7 @@
 			files = (
 				7281195A2AC3F183005D0D72 /* Preview Assets.xcassets in Resources */,
 				728119572AC3F183005D0D72 /* Assets.xcassets in Resources */,
+				728119642AC3F4EB005D0D72 /* CroissantOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				728119552AC3F182005D0D72 /* ContentView.swift in Sources */,
+				7281196B2AC40043005D0D72 /* InfoView.swift in Sources */,
 				728119532AC3F182005D0D72 /* DanfelogarCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +288,7 @@
 				DEVELOPMENT_TEAM = B66B7LDLW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DanfelogarCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +318,7 @@
 				DEVELOPMENT_TEAM = B66B7LDLW4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DanfelogarCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
